@@ -10,7 +10,13 @@ public class Cat extends Animal {
     }
 
     @Override
-    public boolean mood(String moodType) {
-        return true;
+    public void showMood(boolean mood) {
+        if (mood){
+            System.out.println("Spinder");
+        }else{
+            System.out.println("Hvæser");
+        }
     }
+
+
 }
