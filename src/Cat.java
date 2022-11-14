@@ -8,4 +8,9 @@ public class Cat extends Animal {
     public boolean eat(String foodType) {
         return true;
     }
+
+    @Override
+    public boolean mood(String moodType) {
+        return true;
+    }
 }
