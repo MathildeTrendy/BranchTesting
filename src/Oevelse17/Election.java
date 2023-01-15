@@ -37,6 +37,6 @@ public class Election {
         Candidate FinnPølseskind = new Candidate("Finn Pølseskind","Ærligfolket",509);
 
 
-        System.out.println(());
+       // System.out.println(());
     }
 }
